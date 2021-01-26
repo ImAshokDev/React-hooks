@@ -6,6 +6,7 @@ import ClassCounterTwo from "./app/Component/ClassCounterTwo";
 import HookCounter from "./app/Component/HookCounter";
 import HookCounterTwo from "./app/Component/HookCounterTwo";
 import HookThree from "./app/Component/HookThree";
+import HookFour from "./app/Component/HookFour";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path="/hook-counter" component={HookCounter} />
           <Route exact path="/hook-counter-two" component={HookCounterTwo} />
           <Route exact path="/hook-three" component={HookThree} />
+          <Route exact path="/hook-four" component={HookFour} />
         </Switch>
       </BrowserRouter>
     </div>
