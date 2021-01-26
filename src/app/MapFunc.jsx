@@ -7,7 +7,7 @@ const ArrayMap = () => {
       .map((el) => {
         return el * 2;
       })
-      .filter((el) => el < 4);
+      .filter((el) => el === 4);
 
     console.log("OLD ARRAY: ", a1);
     console.log("NEW ARRAY: ", newArr);
@@ -32,7 +32,7 @@ const ArrayMap = () => {
 
   return (
     <div>
-      <h1>React App</h1>
+      <h1>Map vs forEach</h1>
     </div>
   );
 };
