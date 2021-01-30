@@ -8,6 +8,7 @@ import HookCounterTwo from "./app/Component/HookCounterTwo";
 import HookThree from "./app/Component/HookThree";
 import HookFour from "./app/Component/HookFour";
 import useEffectOne from "./app/Component/useEffectOne";
+import useEffectFetch1 from "./app/Component/useEffectFetch1";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route exact path="/hook-three" component={HookThree} />
           <Route exact path="/hook-four" component={HookFour} />
           <Route exact path="/useEffect-one" component={useEffectOne} />
+          <Route exact path="/useEffect-fetch1" component={useEffectFetch1} />
         </Switch>
       </BrowserRouter>
     </div>

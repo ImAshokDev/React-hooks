@@ -7,3 +7,4 @@
 5. [useState with Object](./src/app/Component/HookThree.js)
 6. [useState with Array](./src/app/Component/HookFour.js)
 7. [useEffect with conditionally render](./src/app/Component/useEffectOne.js)
+8. [useEffect with Data Fetching 1](./src/app/Component/useEffectFetch1.js)
