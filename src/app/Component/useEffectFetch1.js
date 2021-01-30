@@ -8,7 +8,7 @@ export default function useEffectFetch1() {
     axios
       .get("https://jsonplaceholder.typicode.com/posts")
       .then((res) => {
-        console.log("res...", res.data);
+        // console.log("res...", res.data);
         setPosts(res.data);
       })
       .catch((err) => {
