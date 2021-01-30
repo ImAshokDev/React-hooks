@@ -9,3 +9,4 @@
 7. [useEffect with conditionally render](./src/app/Component/useEffectOne.js)
 8. [useEffect with Data Fetching 1](./src/app/Component/useEffectFetch1.js)
 9. [useEffect with Data Fetching 2](./src/app/Component/useEffectFetch2.js)
+10. [useEffect with button click Fetch data](./src/app/Component/useEffectFetch3.js)
