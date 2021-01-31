@@ -14,3 +14,4 @@
 12. [useContext 2](./src/app/Component/HookContext2.js)
 13. [useReducer 1 simple](./src/app/useReducers/ReducerHook1.js)
 14. [useReducer 2 complex](./src/app/useReducers/ReducerHook2.js)
+15. [useReducer 3 Multiple useReducer ](./src/app/useReducers/ReducerHook3.js)
