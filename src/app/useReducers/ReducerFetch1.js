@@ -2,12 +2,11 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 function ReducerFetch1() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [post, setPost] = useState({});
 
   useEffect(() => {
-    setLoading(true);
     axios
       .get("https://jsonplaceholder.typicode.com/posts/1")
       .then((res) => {
@@ -24,6 +23,7 @@ function ReducerFetch1() {
 
   return (
     <div>
+      <h1>useReducer Fetch 1</h1>
       {loading ? <p>Loading...</p> : null}
       {error ? <p>{error}</p> : null}
       {post ? <p>{post.title}</p> : null}

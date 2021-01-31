@@ -17,3 +17,4 @@
 15. [useReducer 3 Multiple useReducer ](./src/app/useReducers/ReducerHook3.js)
 16. [useReducer + useContext 4 ](./src/app/useReducers/ReducerContext/index.js)
 17. [useReducer Data Fetching 1 ](./src/app/useReducers/ReducerFetch1.js)
+18. [useReducer Data Fetching 2 ](./src/app/useReducers/ReducerFetch2.js)
