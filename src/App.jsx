@@ -12,53 +12,64 @@ import useEffectFetch1 from "./app/Component/useEffectFetch1";
 import useEffectFetch2 from "./app/Component/useEffectFetch2";
 import useEffectFetch3 from "./app/Component/useEffectFetch3";
 import HookContext1 from "./app/Component/HookContext1";
+import HookContext2 from "./app/Component/HookContext2";
+import ReducerHook1 from "./app/useReducers/ReducerHook1";
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
 
+// const App = () => {
+//   return (
+//     <div>
+//       <UserContext.Provider value={"ashok"}>
+//         <AgeContext.Provider value={23}>
+//           <BrowserRouter>
+//             <Switch>
+//               <Route exact path="/" component={ArrayMap} />
+//               <Route exact path="/class-counter" component={ClassCounter} />
+//               <Route
+//                 exact
+//                 path="/class-counter-two"
+//                 component={ClassCounterTwo}
+//               />
+//               <Route exact path="/hook-counter" component={HookCounter} />
+//               <Route
+//                 exact
+//                 path="/hook-counter-two"
+//                 component={HookCounterTwo}
+//               />
+//               <Route exact path="/hook-three" component={HookThree} />
+//               <Route exact path="/hook-four" component={HookFour} />
+//               <Route exact path="/useEffect-one" component={useEffectOne} />
+//               <Route
+//                 exact
+//                 path="/useEffect-fetch1"
+//                 component={useEffectFetch1}
+//               />
+//               <Route
+//                 exact
+//                 path="/useEffect-fetch2"
+//                 component={useEffectFetch2}
+//               />
+//               <Route
+//                 exact
+//                 path="/useEffect-fetch3"
+//                 component={useEffectFetch3}
+//               />
+//               <Route exact path="/hook-context1" component={HookContext1} />
+//               <Route exact path="/hook-context2" component={HookContext2} />
+//             </Switch>
+//           </BrowserRouter>
+//         </AgeContext.Provider>
+//       </UserContext.Provider>
+//     </div>
+//   );
+// };
+
 const App = () => {
   return (
     <div>
-      <UserContext.Provider value={"ashok"}>
-        <AgeContext.Provider value={23}>
-          <BrowserRouter>
-            <Switch>
-              <Route exact path="/" component={ArrayMap} />
-              <Route exact path="/class-counter" component={ClassCounter} />
-              <Route
-                exact
-                path="/class-counter-two"
-                component={ClassCounterTwo}
-              />
-              <Route exact path="/hook-counter" component={HookCounter} />
-              <Route
-                exact
-                path="/hook-counter-two"
-                component={HookCounterTwo}
-              />
-              <Route exact path="/hook-three" component={HookThree} />
-              <Route exact path="/hook-four" component={HookFour} />
-              <Route exact path="/useEffect-one" component={useEffectOne} />
-              <Route
-                exact
-                path="/useEffect-fetch1"
-                component={useEffectFetch1}
-              />
-              <Route
-                exact
-                path="/useEffect-fetch2"
-                component={useEffectFetch2}
-              />
-              <Route
-                exact
-                path="/useEffect-fetch3"
-                component={useEffectFetch3}
-              />
-              <Route exact path="/hook-context1" component={HookContext1} />
-            </Switch>
-          </BrowserRouter>
-        </AgeContext.Provider>
-      </UserContext.Provider>
+      <ReducerHook1 />
     </div>
   );
 };

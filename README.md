@@ -11,3 +11,5 @@
 9. [useEffect with Data Fetching 2](./src/app/Component/useEffectFetch2.js)
 10. [useEffect with button click Fetch data](./src/app/Component/useEffectFetch3.js)
 11. [useContext 1](./src/app/Component/HookContext1.js)
+12. [useContext 2](./src/app/Component/HookContext2.js)
+13. [useReducer 1](./src/app/useReducers/ReducerHook1.js)
