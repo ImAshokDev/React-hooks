@@ -14,6 +14,7 @@ import useEffectFetch3 from "./app/Component/useEffectFetch3";
 import HookContext1 from "./app/Component/HookContext1";
 import HookContext2 from "./app/Component/HookContext2";
 import ReducerHook1 from "./app/useReducers/ReducerHook1";
+import ReducerHook2 from "./app/useReducers/ReducerHook2";
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -69,7 +70,8 @@ export const AgeContext = React.createContext();
 const App = () => {
   return (
     <div>
-      <ReducerHook1 />
+      {/* <ReducerHook1 /> */}
+      <ReducerHook2 />
     </div>
   );
 };
