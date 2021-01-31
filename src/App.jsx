@@ -16,6 +16,8 @@ import HookContext2 from "./app/Component/HookContext2";
 import ReducerHook1 from "./app/useReducers/ReducerHook1";
 import ReducerHook2 from "./app/useReducers/ReducerHook2";
 import ReducerHook3 from "./app/useReducers/ReducerHook3";
+import ReducerContext from "./app/useReducers/ReducerContext";
+import ReducerFetch1 from "./app/useReducers/ReducerFetch1";
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -73,7 +75,10 @@ const App = () => {
     <div>
       {/* <ReducerHook1 /> */}
       {/* <ReducerHook2 /> */}
-      <ReducerHook3 />
+      {/* <ReducerHook3 /> */}
+
+      {/* <ReducerContext /> */}
+      <ReducerFetch1 />
     </div>
   );
 };
