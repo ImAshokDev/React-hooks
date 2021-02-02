@@ -22,6 +22,7 @@ import ReducerFetch2 from "./app/useReducers/ReducerFetch2";
 import ParentCallBack from "./app/useCallBackHook/ParentCallBack";
 import UseMemoHook from "./app/Component/useMemoHook";
 import UseRefOne from "./app/UseRef/UseRefOne";
+import UseRefTwo from "./app/UseRef/UseRefTwo";
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -85,7 +86,8 @@ const App = () => {
       {/* <ReducerFetch2 /> */}
       {/* <ParentCallBack /> */}
       {/* <UseMemoHook /> */}
-      <UseRefOne />
+      {/* <UseRefOne /> */}
+      <UseRefTwo />
     </div>
   );
 };
